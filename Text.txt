@@ -1,12 +1,14 @@
 Hello GIT...
 
-change 1
+Change 1
 
 
 
-change2
-
-change3
+Change2
 
 
-change4
+
+Change3
+
+
+Change4
