@@ -12,6 +12,7 @@ Change3
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Change - 4
 
 
@@ -22,6 +23,9 @@ change - 6
 
 
 change - 7
+=======
+Change4
+>>>>>>> parent of bddba06... '-' are added
 =======
 Change4
 >>>>>>> parent of bddba06... '-' are added
