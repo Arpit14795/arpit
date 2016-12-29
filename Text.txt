@@ -1,16 +1,17 @@
 Hello GIT...
 
-Change - 1
+Change 1
 
 
 
-Change - 2
+Change2
 
 
 
-Change - 3
+Change3
 
 
+<<<<<<< HEAD
 Change - 4
 
 
@@ -21,3 +22,6 @@ change - 6
 
 
 change - 7
+=======
+Change4
+>>>>>>> parent of bddba06... '-' are added
