@@ -13,6 +13,7 @@ Change3
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Change - 4
 
 
@@ -29,3 +30,6 @@ Change4
 =======
 Change4
 >>>>>>> parent of bddba06... '-' are added
+=======
+Change - 4
+>>>>>>> parent of bd1b013... change5 in Text
