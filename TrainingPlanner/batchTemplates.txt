@@ -1,0 +1,3 @@
+Standard_Java,  Basic Sql Queries - 2, core Java-5, Hibernate-4, Restful web services-2, Spring -5, GIT-2,JavaScript-3,JQuery - 2, Unix -2, HTML 5 -2   
+full_Stack , GIT-2,JavaScript-3,JQuery - 2,Unix - 2, HTML 5 -2 
+QE, Basic Sql Queries -2, Basic Java -3, Basic Perl -3, Software Testing- 2, Functional Test Automation Tool: Selenium-3, REST API testing -2
