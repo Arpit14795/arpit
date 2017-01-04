@@ -1,0 +1,10 @@
+1.select count(*) from customers;
+2.select unitsonorder from products where productid=68;
+3.select max(hiredate) Latest,min(hiredate) Earliest from employees;
+4.select city,count(*) Number_of_employees from employees group by city;
+5.select city,count(*) Number_of_employees from employees group by city having count(*)>=2; 
+6.select city,count(*) Number_of_employees from employees where title='Sales Representative' group by city having count(*)>=2 order by count(*); 
+7.select to_char(birthdate, 'MONTH') from employees;
+8.select firstname, to_char(birthdate,'ddth MONTH YYYY'), hiredate, city, country from employees where to_char(hiredate,'YYYY')='2011';
+9.select customerid,count(*) NumOrders from orders where orderdate >= '31-DEC-1996' group by customerid having count(*)>15;
+10.select orderid,sum(quantity) Total_quantity from order_details group by orderid having sum(quantity)<=200;

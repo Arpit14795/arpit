@@ -1,0 +1,14 @@
+1.select CategoryName,Description from categories order by categoryname;
+2.select contactname, companyname, contacttitle, phone from customers order by phone;
+3.select firstname,lastname, hiredate from employees order by hiredate desc;
+4.select OrderID, OrderDate, ShippedDate, CustomerID,Freight from orders order by freight desc;
+5.select CompanyName, Fax, Phone, HomePage,Country from suppliers order by Country desc,companyName; 
+6.select lastname,firstname from employees where title='Sales Representative';
+7.select lastname,firstname from employees where title!='Sales Representative';
+8.select companyname, contactname from customers where city='Buenos Aires';
+9.select productname, unitprice, quantityperunit from products where unitsinstock=0;
+10.select orderdate, shippeddate, customerid,freight from orders where orderdate='19-MAY-97';
+11.select firstname,lastname,country from employees where country!='USA'; 
+12.select titleofcourtesy,firstname,lastname from employees where titleofcourtesy='Ms.' or titleofcourtesy='Mrs.'; 
+13.select titleofcourtesy,firstname,lastname from employees where titleofcourtesy like 'M%';
+14.select concat(concat(firstname,' '),lastname) from employees;

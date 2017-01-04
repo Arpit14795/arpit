@@ -1,0 +1,18 @@
+--Based on Northwind Schema
+1.select distinct city from employees;
+2.select freight,round(freight,1) from orders;
+3.select unitprice, round(unitprice, 2) from products;
+4.select address,substr(address,1,10) from customers;
+5.select s.phone phone from shippers s union select c.phone phone from customers c union select su.phone phone from suppliers su;
+6.select e.employeeid ,e.firstname ,e.lastname,o.orderid from employees e,orders o where e.employeeid=o.employeeid;
+7.select orderid,sum(quantity) Total_quantity from order_details group by orderid having sum(quantity)<=200;
+
+
+--Based on DbSQL schema
+1.select upper(firstname), upper(last_name) from employee;
+--Assuming tenure of 10 years from hiredate
+2.select add_months(hiredate,120) Tenure_date from employee;
+3.select distinct e.firstname, e.jobid, e.salary, d.department_name,l.city from employee e,department d,location l where e.department_id= d.department_id and d.locationid= l.locationid; 
+4.select concat(concat(concat(concat(e.last_name,','),concat(e.jobid,',')),e.salary), concat(',',d.department_name)) Employee_details from employee e,department d where e.department_id= d.department_id;
+5.select distinct e.firstname,d.department_name from employee e,department d,location l where e.department_id= d.department_id and d.locationid= l.locationid and l.city in ('Pune','Mumbai'); 
+
