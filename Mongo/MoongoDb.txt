@@ -1,0 +1,91 @@
+MONGO DB:-
+
+It is open source so anyone can download and install it.
+It doesn't need any database preinstalled in machine.
+
+There is 2 files called
+        mongodb.exe
+        mongo.exe
+
+There are 3 ways to start a server.
+
+mongod
+
+mongod--logpath<> --locationpath<>
+
+mongo -f (for config file)
+
+mongodb is server and mongo is client.
+
+
+create a new folder in C: Named DATA/db(it is default location)
+
+Open cmd and go to the directory till bin folder.
+now command                                 -   mongod
+then open one more window of cmd and command-   mongo
+
+It will show connected.
+
+If you want to specify a log file then can specify that
+
+
+Here is a point to keep in mind that
+Collection is Table
+Document is Record
+
+Assuming that you are connected with client
+Now begin the game of commands:-
+
+>show dbs
+>use database_name
+Here db is automatically pointing to current database
+employee is Document name
+>db.employee.insert
+     Here we have two options  XML  JSON
+  In Jason format
+ db.employee.insert([{id:1,name:"arpit"}])
+  In XML format
+ db.employee.insert({id:1,name:"arpit"})
+
+We can insert array as well and can add any attribute
+
+ JSON- db.employee.insert([{id:1,name:"arpit"},{id:2,name:"sonu"}])
+  XML-db.employee.insert({id:1,name:"arpit"},{id:2,name:"sonu"})
+
+var doc1={id:1,name:"arpit"};
+>db.employees.insert(doc1)
+
+
+
+>db.employee.count()
+>db.stats();
+
+If we want to see the body of method then call without parenthesis
+>db.employee.count
+>db.stats
+
+
+>db.getCollectionNames()
+>db.employee.find()
+>db.employee.find().pretty()
+
+To find any Document in Collection 
+>db.employee.find({name:"arpit"}).pretty()
+
+To find any Document with AND condition
+>db.employee.find({name:"arpit",id:1}).pretty()
+
+
+To find any Document with OR condition
+>db.employee.find({$or:[{name:"arpit"},{id:1}]}).pretty()
+
+
+
+To find any Document with greater than condition
+>db.employee.find({name:"arpit",id:{$gte:1}}).pretty()
+
+
+
+
+
+
