@@ -1,0 +1,5 @@
+1,resource1,ADMIN,
+2,resource2,ITIG,2:14:5
+3,resource3,HR,4:6
+4,resource4,FINANCE,3:9:10
+5,resource5,ITIG,8
