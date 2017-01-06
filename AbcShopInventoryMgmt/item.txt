@@ -1,0 +1,2 @@
+1001,21,hp-notebook,hardware,15.4inch,25,hp,220V,10hrs
+1002,22,pi-mobility,software,linux,10MB,abac1012214xyh
