@@ -1,0 +1,16 @@
+1,Arjun,12
+2,Deep,8
+3,Deep,3
+4,Neha,10
+5,Seema, 
+6,Bani,6
+7,Deepali,3
+8,Neha, 
+9,Meena,9
+10,Chaitali,3
+11,Bani,6
+12,Deepali,3
+13,Neha,10
+14,Deep,3
+15,Beena,6
+

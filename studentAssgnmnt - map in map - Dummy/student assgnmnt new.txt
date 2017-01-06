@@ -1,0 +1,65 @@
+For student assgnment system make d following changes
+in d question were dere is list inside map make it map inside map
+and following are the three text files as well as bean classes feilds 
+set them as it is and make getter and setter methods as appropriate.
+
+
+
+Subject.txt
+Physics,10:05:2014
+Chemistry,15:05:2014
+Maths,05:05:2014
+ 
+Feilds :
+	private String subjectName;
+	private java.util.Date assignmentIssueDate;
+	private int numberOfSubmissions = 0;
+
+
+
+student.txt
+101,Snehal Patil,Physics
+101,Snehal Patil,Chemistry
+101,Snehal Patil,Maths
+104,Akshata Guru,Physics
+104,Akshata Guru,Maths
+104,Akshata Guru,Chemistry
+106,Rahul Rautwar,Physics
+106,Rahul Rautwar,Maths
+106,Rahul Rautwar,Chemistry
+109,Swapnil Patil,Chemistry
+109,Swapnil Patil,Maths
+109,Swapnil Patil,Physics
+
+
+Feilds:
+	private int rollNumber;
+	private String studentname;
+	private String subject;
+	
+
+
+
+submission.txt
+101,17:05:2014
+106,20:05:2014
+104,17:05:2014
+109,22:05:2014
+106,21:05:2014
+101,27:05:2014
+104,08:05:2014
+109,25:05:2014
+109,14:05:2014
+104,13:05:2014
+101,08:05:2014
+106,27:05:2014
+
+
+
+Feilds:
+	private int rollNumber;
+	private java.util.Date submissionDate;
+	private int numberOfDays = 0;
+	private int marksObtained = 0;
+
+

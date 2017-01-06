@@ -1,0 +1,4 @@
+C:\Program Files (x86)\MySQL\MySQL Server 4.1\data
+
+
+this is the location most probably where you need to paste the "stockmarketdb" folder provided to you  
