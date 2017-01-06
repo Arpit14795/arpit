@@ -1,0 +1,8 @@
+1,1267,"Cheese Pizza",32
+2,1261,"Mozerella pizza",25
+2,1269,"Hot Dogs Pizza",15
+2,1272,"Chicken Piece Pizza",18
+1,1274,"Veg Onion Pizza",23
+1,1275,"Red Almond Pizza",10
+1,1280,"Custard Pizza",14
+2,1281,"Chicken Bbq Pizza",36
