@@ -1,0 +1,10 @@
+Dear <NAME>,
+
+A Very Happy <EVENT>!!
+
+For this special day <EVENTDATE> Global Bank wishes you a year full of joy and happiness.
+Congratulation for  completing <AGE> years. HAve a great and wonderful year ahead.
+We look forward to an engaging relationship with you.
+
+Regards,
+Global BAnk.
