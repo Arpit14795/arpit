@@ -1,0 +1,43 @@
+create database augustdb;
+
+use augustdb;
+
+--
+-- Table structure for table emp_tbl
+--
+
+DROP TABLE IF EXISTS emp_tbl;
+
+CREATE TABLE emp_tbl (
+  emp_id int(10) DEFAULT NULL,
+  emp_name varchar(100) DEFAULT NULL,
+  birth_date date DEFAULT NULL,
+ anniversary_date date DEFAULT NULL);
+
+INSERT INTO emp_tbl VALUES 
+(1,'Ram','1990-07-23','2015-06-12'),
+(2,'Shyam','1980-04-15','2005-08-14'),
+(3,'Meena','2000-08-05',NULL),
+(4,'Sonali','1990-07-23','2010-09-10'),
+(5,'Vikas','1990-07-23','2014-09-17'),
+(6,'Prashant','1990-07-23',NULL),
+(7,'Geeta','1990-07-23','2009-01-21'),
+(8,'Sunita','1990-07-23','2000-09-17'),
+(9,'Ria','1990-07-23','2010-09-17'),
+(10,'Amit','1990-07-23','2000-09-17'),
+(11,'Amol','1981-12-20','2005-08-14'),
+(12,'Meena','1991-08-05','2014-09-17'),
+(13,'Ria','1990-02-20','2010-09-17');
+
+
+
+
+
+
+
+
+
+
+
+
+
